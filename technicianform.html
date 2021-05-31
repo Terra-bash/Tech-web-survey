@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Survey Form</title>
+</head>
+
+<body>
+    <form action=>
+        <div align="center">
+            <!--This enables the body of the program not to move to the left-->
+            <h1>Employee Interests Survey Form</h1>
+            <br></br>
+            Enter your name:
+            <input type="text" name="UserName" size=35 maxlength="35" value="" required><br></br>
+            <label for="Department">Enter your department:</label>
+            <input type="text" id="Department" value="" placeholder="Department" size="35" maxlength="35" required>
+            <br></br>
+            <label for="About you">Tell us about yourself:</label>
+            <textarea name="comments" id="About you" cols="40" rows="5" value="" placeholder="About you" ></textarea> 
+            <br></br>
+            Do you exercise at home?
+            <label for="yes" >Yes</label>
+            <input type="radio" id="yes" name="exe">
+            <input type="radio" id="no" name="exe">No
+            <br>
+            <p>How do you like to read your favorite topics?</p>
+            <input type="checkbox" id="Books">Books
+            <input type="checkbox" name="Web">Online resources
+            <input type="checkbox" name="Phone">Phone apps
+            <input type="checkbox" id="Magazines">Magazines
+            <br></br>
+            What genre of movies do you like?
+            <select name="moviepref" id="">
+                <option value="1" >comedy</option>
+                <option value="2" >romance</option>
+                <option value="3" >thriller</option>
+                <option value="4" >horror</option>
+                <option value="5" >biopic</option>
+            </select>
+            <br></br>
+
+            <input type="submit" value="Submit form">
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </form>
+</body>
